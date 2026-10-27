@@ -1,5 +1,7 @@
 # CapCut skill for Claude Code
 
+English | [简体中文](README.zh-CN.md)
+
 A [Claude Code](https://claude.com/claude-code) skill that lets Claude edit **CapCut (剪映国际版) cloud drafts** through CapCut's official MCP server: upload local media, build and edit drafts (clips, music, sound effects, text, captions, filters, transitions, text templates), search materials and templates, run automatic captions, AI rough cuts, and AI image/video generation.
 
 CapCut published its MCP plugin for OpenAI Codex. This skill adapts it to Claude: how to connect, which parts of the Codex workflow don't apply, and the real-world boundaries found by testing (what the cloud keeps or drops, push pitfalls, account/login behaviour).
@@ -48,4 +50,4 @@ CapCut must be added as **local MCP servers via `mcp-remote`** in `claude_deskto
 
 ## License
 
-MIT for the files in this repository (`SKILL.md`, `README.md`, `scripts/`). CapCut's plugin material fetched into `official/` remains CapCut's and is subject to its own terms.
+MIT for the files in this repository (`SKILL.md`, `README.md`, `README.zh-CN.md`, `scripts/`). CapCut's plugin material fetched into `official/` remains CapCut's and is subject to its own terms.
